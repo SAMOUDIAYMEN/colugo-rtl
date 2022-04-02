@@ -5,9 +5,10 @@
     "use strict"; // Start of use strict
     $("#contactForm").validator().on("submit", function (event) {
         if (event.isDefaultPrevented()) {
-            // handle the invalid form...
-            formError();
-            submitMSG(false, "Did you fill in the form properly?");
+            $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+                $(this).removeClass();
+            });
+            submitMSG(false, text);
         } else {
             // everything looks good!
             event.preventDefault();
@@ -16,43 +17,27 @@
     });
 
 
-    function submitForm(){
-        // Initiate Variables With Form Content
-        var name = $("#name").val();
-        var email = $("#email").val();
-        var msg_subject = $("#msg_subject").val();
-        var phone_number = $("#phone_number").val();
-        var message = $("#message").val();
+    function submitForm() {
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyiUHuhKHPc_5GqTd-Ss2MRW1aQVOyC42En6LjWQHAMMc8qxxQ/exec'
+        const form = document.forms['google-sheet']
 
-
-        $.ajax({
-            type: "POST",
-            url: "assets/php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
-            success : function(text){
-                if (text == "success"){
-                    formSuccess();
-                } else {
-                    formError();
-                    submitMSG(false,text);
-                }
-            }
-        });
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .catch(error => console.error('Error!', error.message))
+            .then(document.getElementById("Continuer").disabled = true)
+            .then(document.getElementById("Continuer").style.backgroundColor = "gray")
+            .then(document.getElementById("Continuer").innerHTML = "المرجو الانتظار")
+            .then(window.setTimeout(function () {
+                document.getElementById("btn-show-popup").click();
+                document.getElementById("Continuer").disabled = false;
+                document.getElementById("Continuer").style.backgroundColor = "#5A2573"
+                document.getElementById("Continuer").innerHTML = "أرسل"
+            }, 1000))
+            .then($("#contactForm")[0].reset())
     }
 
-    function formSuccess(){
-        $("#contactForm")[0].reset();
-        submitMSG(true, "Message Submitted!")
-    }
 
-    function formError(){
-        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-            $(this).removeClass();
-        });
-    }
-
-    function submitMSG(valid, msg){
-        if(valid){
+    function submitMSG(valid, msg) {
+        if (valid) {
             var msgClasses = "h4 text-left tada animated text-success";
         } else {
             var msgClasses = "h4 text-left text-danger";

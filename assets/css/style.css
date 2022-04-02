@@ -42,12 +42,12 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 body {
   padding: 0;
   margin: 0;
   color: #646464;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 a {
@@ -58,7 +58,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #2f5bea;
+  color: #5A2573;
   outline: 0;
 }
 
@@ -71,7 +71,7 @@ p {
   line-height: 1.6;
   margin-bottom: 12px;
   font-size: 16px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 p:last-child {
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
   color: #ffffff;
   text-transform: capitalize;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 50px;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-title .bar {
   height: 4px;
   width: 85px;
-  background: #2f5bea;
+  background: #5A2573;
   margin: 20px auto 20px;
   position: relative;
   border-radius: 5px;
@@ -265,7 +265,7 @@ Preloader Area CSS
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background-color: #2f5bea !important;
+  background-color: #5A2573 !important;
   -webkit-animation: preloader 1.3s linear infinite;
           animation: preloader 1.3s linear infinite;
 }
@@ -364,7 +364,7 @@ Navbar Area CSS
 }
 
 .navbar-light .navbar-nav .nav-item a:hover, .navbar-light .navbar-nav .nav-item a:focus, .navbar-light .navbar-nav .nav-item a.active {
-  color: #2f5bea;
+  color: #5A2573;
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -388,7 +388,7 @@ Navbar Area CSS
 }
 
 .navbar-light .navbar-nav .nav-item:hover a, .navbar-light .navbar-nav .nav-item.active a {
-  color: #2f5bea;
+  color: #5A2573;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -513,7 +513,7 @@ Banner Area CSS
 }
 
 .main-banner .banner-form form .form-control:focus {
-  border-color: #2f5bea;
+  border-color: #5A2573;
 }
 
 .main-banner .banner-form form textarea.form-control {
@@ -526,9 +526,9 @@ Banner Area CSS
   width: 100%;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   padding: 14px 25px;
-  border: 1px solid #2f5bea;
+  border: 1px solid #5A2573;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-transform: capitalize;
@@ -538,8 +538,8 @@ Banner Area CSS
 }
 
 .main-banner .banner-form form button:hover {
-  border-color: #2f5bea;
-  color: #2f5bea;
+  border-color: #5A2573;
+  color: #5A2573;
   background-color: transparent;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.02);
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.02);
@@ -858,7 +858,7 @@ Fun Facts Area CSS
 
 .single-fun-fact .icon i {
   font-size: 50px;
-  color: #2f5bea;
+  color: #5A2573;
   line-height: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -890,14 +890,14 @@ Fun Facts Area CSS
   z-index: -1;
   width: 100%;
   height: 0%;
-  background: #2f5bea;
+  background: #5A2573;
   border-radius: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .single-fun-fact:hover {
-  border: 1px solid #2f5bea;
+  border: 1px solid #5A2573;
 }
 
 .single-fun-fact:hover::before {
@@ -937,7 +937,7 @@ About Area CSS
 .about-content .bar {
   height: 4px;
   width: 85px;
-  background: #2f5bea;
+  background: #5A2573;
   margin: 20px auto 20px 0;
   position: relative;
   border-radius: 5px;
@@ -994,7 +994,7 @@ Features Area CSS
   height: 60px;
   width: 60px;
   line-height: 60px;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   color: #ffffff;
   font-size: 25px;
   border-radius: 50px;
@@ -1026,7 +1026,7 @@ Features Area CSS
   position: absolute;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   border-radius: 5px;
@@ -1043,7 +1043,7 @@ Features Area CSS
 
 .single-features:hover .icon i {
   background-color: #ffffff;
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .single-features:hover h3 {
@@ -1092,7 +1092,7 @@ Screenshot Area CSS
 }
 
 .screenshot-area .section-title .bar::before {
-  background: #2f5bea;
+  background: #5A2573;
 }
 
 .screenshot-slider.owl-theme .owl-dots .owl-dot span {
@@ -1102,7 +1102,7 @@ Screenshot Area CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 50%;
-  border: 1px solid #2f5bea;
+  border: 1px solid #5A2573;
   position: relative;
 }
 
@@ -1113,7 +1113,7 @@ Screenshot Area CSS
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   border-radius: 50%;
   margin: 4px;
   opacity: 0;
@@ -1172,7 +1172,7 @@ Testimonial Area CSS
 
 .testimonial-slides .client-feedback .single-feedback .icon i {
   font-size: 65px;
-  color: #2f5bea;
+  color: #5A2573;
   margin-bottom: 20px;
 }
 
@@ -1219,7 +1219,7 @@ Testimonial Area CSS
 
 .testimonial-slides .client-thumbnails .item .title span {
   display: block;
-  color: #2f5bea;
+  color: #5A2573;
   font-size: 14px;
   margin-top: 8px;
 }
@@ -1255,7 +1255,7 @@ Testimonial Area CSS
 }
 
 .testimonial-slides .next-arrow:hover, .testimonial-slides .prev-arrow:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .testimonial-slides .next-arrow {
@@ -1300,7 +1300,7 @@ Overview Area CSS
 .overview-content .bar {
   height: 4px;
   width: 85px;
-  background: #2f5bea;
+  background: #5A2573;
   margin: 20px auto 20px 0;
   position: relative;
   border-radius: 5px;
@@ -1414,7 +1414,7 @@ Pricing Area CSS
   font-weight: 600;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .single-pricing-table .pricing-features li:last-child {
@@ -1439,7 +1439,7 @@ Pricing Area CSS
 .single-pricing-table:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  background-color: #2f5bea;
+  background-color: #5A2573;
 }
 
 .single-pricing-table:hover .pricing-header h3 {
@@ -1464,7 +1464,7 @@ Pricing Area CSS
 
 .single-pricing-table:hover .pricing-btn .default-btn {
   background-color: #ffffff;
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .pricing-list-tab .tabs {
@@ -1493,7 +1493,7 @@ Pricing Area CSS
 
 .pricing-list-tab .tabs li.current a {
   color: #ffffff;
-  background-color: #2f5bea;
+  background-color: #5A2573;
 }
 
 .tab .tabs_item {
@@ -1550,7 +1550,7 @@ Faq Area CSS
   width: 40px;
   text-align: center;
   height: 100%;
-  background: #2f5bea;
+  background: #5A2573;
   color: #ffffff;
 }
 
@@ -1642,7 +1642,7 @@ Team Area CSS
   text-align: center;
   position: relative;
   font-size: 16px;
-  color: #2f5bea;
+  color: #5A2573;
   border-radius: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -1661,7 +1661,7 @@ Team Area CSS
 
 .single-team .image .social li a:hover {
   color: #ffffff;
-  background-color: #2f5bea;
+  background-color: #5A2573;
 }
 
 .single-team .image .social li:nth-child(1) {
@@ -1721,7 +1721,7 @@ Team Area CSS
 }
 
 .single-team:hover .image .content {
-  background-color: #2f5bea;
+  background-color: #5A2573;
 }
 
 .single-team:hover .image .content h3 {
@@ -1786,7 +1786,7 @@ App Download Area CSS
   top: 0;
   height: 100%;
   width: 5px;
-  background: #2f5bea;
+  background: #5A2573;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-timing-function: linear;
@@ -1836,7 +1836,7 @@ Blog Area CSS
 }
 
 .single-blog .image .btn {
-  background-color: #2f5bea;
+  background-color: #5A2573;
   display: inline-block;
   position: absolute;
   right: 14px;
@@ -1878,7 +1878,7 @@ Blog Area CSS
 .single-blog .content .read-more {
   font-size: 16px;
   display: inline-block;
-  color: #2f5bea;
+  color: #5A2573;
   font-weight: 500;
   margin-top: 12px;
   -webkit-transition: 0.5s;
@@ -1915,7 +1915,7 @@ Blog Area CSS
 }
 
 .single-blog .content .post-meta i {
-  color: #2f5bea;
+  color: #5A2573;
   margin-right: 5px;
 }
 
@@ -1925,11 +1925,11 @@ Blog Area CSS
 }
 
 .single-blog:hover .content h3 a {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .single-blog:hover .content .read-more {
-  color: #2f5bea;
+  color: #5A2573;
   letter-spacing: 1px;
 }
 
@@ -1939,7 +1939,7 @@ Blog Area CSS
 }
 
 .single-blog:hover .image .btn a {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 /*================================================
@@ -1972,7 +1972,7 @@ Contact Area CSS
 }
 
 .contact-form form .form-control:focus {
-  border-color: #2f5bea;
+  border-color: #5A2573;
 }
 
 .contact-form form .form-control::-webkit-input-placeholder {
@@ -2037,7 +2037,7 @@ Contact Area CSS
 
 .contact-info .contact-info-content h2 a {
   display: inline-block;
-  color: #2f5bea;
+  color: #5A2573;
   text-transform: lowercase;
   font-size: 20px;
 }
@@ -2051,7 +2051,7 @@ Contact Area CSS
 }
 
 .contact-info .contact-info-content h2 a:not(:first-child):hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .contact-info .contact-info-content h2 span {
@@ -2097,8 +2097,8 @@ Contact Area CSS
 
 .contact-info .contact-info-content .social li a:hover {
   color: #ffffff;
-  border-color: #2f5bea;
-  background-color: #2f5bea;
+  border-color: #5A2573;
+  background-color: #5A2573;
 }
 
 /*================================================
@@ -2172,7 +2172,7 @@ Subscribe Area CSS
   position: absolute;
   right: 4px;
   top: 4px;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   color: #ffffff;
   border: none;
   height: 62px;
@@ -2283,7 +2283,7 @@ Banner Area Two CSS
   position: absolute;
   right: 4px;
   top: 4px;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   color: #ffffff;
   border: none;
   height: 62px;
@@ -2361,7 +2361,7 @@ Video Area CSS
   line-height: 100px;
   background-color: #ffffff;
   border-radius: 50%;
-  color: #2f5bea;
+  color: #5A2573;
   position: relative;
   z-index: 1;
 }
@@ -2404,7 +2404,7 @@ Video Area CSS
 }
 
 .video-content .video-btn:hover, .video-content .video-btn .video-content .video-btn:focus {
-  background-color: #2f5bea;
+  background-color: #5A2573;
   color: #ffffff;
 }
 
@@ -2493,7 +2493,7 @@ Page Title Area CSS
 }
 
 .page-title-content ul li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .page-title-content ul li::before {
@@ -2504,7 +2504,7 @@ Page Title Area CSS
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #2f5bea;
+  background-color: #5A2573;
 }
 
 .page-title-content ul li:last-child::before {
@@ -2533,7 +2533,7 @@ Pagination Area CSS
 }
 
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
-  background: #2f5bea;
+  background: #5A2573;
   color: #ffffff;
   -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
           box-shadow: 0 2px 10px 0 #d8dde6;
@@ -2561,7 +2561,7 @@ Blog Details Area CSS
   display: inline-block;
   color: #000000;
   margin-right: 21px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .blog-details-desc .article-content .entry-meta ul li span {
@@ -2576,11 +2576,11 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .blog-details-desc .article-content .entry-meta ul li i {
-  color: #2f5bea;
+  color: #5A2573;
   margin-right: 2px;
 }
 
@@ -2591,7 +2591,7 @@ Blog Details Area CSS
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #2f5bea;
+  background: #5A2573;
 }
 
 .blog-details-desc .article-content .entry-meta ul li:last-child {
@@ -2647,7 +2647,7 @@ Blog Details Area CSS
   position: relative;
   padding-left: 34px;
   color: #646464;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .blog-details-desc .article-content .features-list li i {
@@ -2657,7 +2657,7 @@ Blog Details Area CSS
   text-align: center;
   border-radius: 40px;
   background-color: #faf5f5;
-  color: #2f5bea;
+  color: #5A2573;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   display: inline-block;
@@ -2668,7 +2668,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .features-list li:hover i {
-  background-color: #2f5bea;
+  background-color: #5A2573;
   color: #ffffff;
 }
 
@@ -2705,11 +2705,11 @@ Blog Details Area CSS
 .blog-details-desc .article-footer .article-tags a {
   display: inline-block;
   color: #646464;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .blog-details-desc .article-footer .article-tags a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .blog-details-desc .article-footer .article-share {
@@ -2735,12 +2735,12 @@ Blog Details Area CSS
   margin-right: 2px;
   font-weight: 500;
   color: #646464;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .blog-details-desc .article-footer .article-share .social li a {
   display: block;
-  color: #2f5bea;
+  color: #5A2573;
   width: 30px;
   height: 30px;
   line-height: 34px;
@@ -2752,7 +2752,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-footer .article-share .social li a:hover {
   color: #ffffff;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
@@ -2788,7 +2788,7 @@ blockquote::after, .blockquote::after {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -2846,7 +2846,7 @@ blockquote::after, .blockquote::after {
 
 .post-navigation .navigation-links div a {
   display: inline-block;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-weight: 600;
 }
 
@@ -2899,15 +2899,15 @@ blockquote::after, .blockquote::after {
   text-transform: capitalize;
   position: relative;
   z-index: 1;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #2f5bea;
-  border-color: #2f5bea;
+  background-color: #5A2573;
+  border-color: #5A2573;
 }
 
 .comments-area .comment-author {
@@ -2937,7 +2937,7 @@ blockquote::after, .blockquote::after {
   margin-bottom: .8em;
   color: #646464;
   letter-spacing: 0.01em;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -2947,7 +2947,7 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-metadata a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .comments-area .comment-respond {
@@ -2998,7 +2998,7 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-respond input[type="date"]:focus, .comments-area .comment-respond input[type="time"]:focus, .comments-area .comment-respond input[type="datetime-local"]:focus, .comments-area .comment-respond input[type="week"]:focus, .comments-area .comment-respond input[type="month"]:focus, .comments-area .comment-respond input[type="text"]:focus, .comments-area .comment-respond input[type="email"]:focus, .comments-area .comment-respond input[type="url"]:focus, .comments-area .comment-respond input[type="password"]:focus, .comments-area .comment-respond input[type="search"]:focus, .comments-area .comment-respond input[type="tel"]:focus, .comments-area .comment-respond input[type="number"]:focus, .comments-area .comment-respond textarea:focus {
-  border-color: #2f5bea;
+  border-color: #5A2573;
 }
 
 .comments-area .comment-respond .comment-form-author {
@@ -3050,7 +3050,7 @@ blockquote::after, .blockquote::after {
 }
 
 .comments-area .comment-respond .form-submit input {
-  background: #2f5bea;
+  background: #5A2573;
   border: none;
   color: #ffffff;
   padding: 15px 30px;
@@ -3093,7 +3093,7 @@ Sidebar Widget Area CSS
 .widget-area .widget .widget-title::before {
   content: '';
   position: absolute;
-  background: #2f5bea;
+  background: #5A2573;
   bottom: -1px;
   left: 0;
   width: 50px;
@@ -3133,7 +3133,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_search form .search-field:focus {
-  border-color: #2f5bea;
+  border-color: #5A2573;
 }
 
 .widget-area .widget_search form button {
@@ -3146,7 +3146,7 @@ Sidebar Widget Area CSS
   z-index: 1;
   border: none;
   color: #ffffff;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -3209,7 +3209,7 @@ Sidebar Widget Area CSS
   display: block;
   color: #646464;
   text-transform: capitalize;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   margin-top: -2px;
   margin-bottom: 3px;
   font-size: 14px;
@@ -3223,7 +3223,7 @@ Sidebar Widget Area CSS
 
 .widget-area .widget_colugo_posts_thumb .item .info .title a {
   display: inline-block;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .widget-area .widget_categories ul {
@@ -3237,7 +3237,7 @@ Sidebar Widget Area CSS
   margin-bottom: 12px;
   color: #646464;
   padding-left: 14px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 15.5px;
   font-weight: 400;
 }
@@ -3247,7 +3247,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_categories ul li::before {
-  background: #2f5bea;
+  background: #5A2573;
   height: 8px;
   width: 8px;
   content: '';
@@ -3263,7 +3263,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_categories ul li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .widget-area .widget_categories ul li .post-count {
@@ -3282,7 +3282,7 @@ Sidebar Widget Area CSS
   color: #646464;
   padding-left: 14px;
   line-height: 1.5;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-weight: 400;
   font-size: 15.5px;
 }
@@ -3292,7 +3292,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_comments ul li::before {
-  background: #2f5bea;
+  background: #5A2573;
   position: absolute;
   height: 8px;
   width: 8px;
@@ -3308,7 +3308,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_comments ul li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .widget-area .widget_recent_entries ul {
@@ -3322,7 +3322,7 @@ Sidebar Widget Area CSS
   margin-bottom: 12px;
   color: #646464;
   padding-left: 14px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 15.5px;
   font-weight: 400;
 }
@@ -3332,7 +3332,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_entries ul li::before {
-  background: #2f5bea;
+  background: #5A2573;
   height: 8px;
   width: 8px;
   content: '';
@@ -3348,7 +3348,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_recent_entries ul li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .widget-area .widget_recent_entries ul li .post-count {
@@ -3366,7 +3366,7 @@ Sidebar Widget Area CSS
   margin-bottom: 12px;
   color: #646464;
   padding-left: 14px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 15.5px;
   font-weight: 400;
 }
@@ -3376,7 +3376,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_meta ul li::before {
-  background: #2f5bea;
+  background: #5A2573;
   height: 8px;
   width: 8px;
   content: '';
@@ -3392,7 +3392,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_meta ul li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .widget-area .widget_meta ul li .post-count {
@@ -3410,7 +3410,7 @@ Sidebar Widget Area CSS
   margin-bottom: 12px;
   color: #646464;
   padding-left: 14px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 15.5px;
   font-weight: 400;
 }
@@ -3420,7 +3420,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_archive ul li::before {
-  background: #2f5bea;
+  background: #5A2573;
   height: 8px;
   width: 8px;
   content: '';
@@ -3436,7 +3436,7 @@ Sidebar Widget Area CSS
 }
 
 .widget-area .widget_archive ul li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
 }
 
 .widget-area .widget_archive ul li .post-count {
@@ -3452,7 +3452,7 @@ Sidebar Widget Area CSS
   color: #000000;
   font-weight: 400;
   font-size: 14.5px !important;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
   padding: 6px 13px;
   border: 1px dashed #eeeeee;
   margin-top: 8px;
@@ -3461,8 +3461,8 @@ Sidebar Widget Area CSS
 
 .widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
   color: #ffffff;
-  background-color: #2f5bea;
-  border-color: #2f5bea;
+  background-color: #5A2573;
+  border-color: #5A2573;
 }
 
 /*================================================
@@ -3508,12 +3508,12 @@ Footer Area CSS
   height: 35px;
   width: 35px;
   line-height: 38px;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   color: #ffffff;
   text-align: center;
   font-size: 16px;
   border-radius: 50px;
-  border: 1px solid #2f5bea;
+  border: 1px solid #5A2573;
 }
 
 .single-footer-widget .social-list a:hover {
@@ -3536,7 +3536,7 @@ Footer Area CSS
   margin-bottom: 8px;
   list-style-type: none;
   font-size: 16px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .single-footer-widget .list li:last-child {
@@ -3552,7 +3552,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .list li a:hover {
-  color: #2f5bea;
+  color: #5A2573;
   letter-spacing: 1px;
 }
 
@@ -3604,7 +3604,7 @@ Go Top CSS
   top: 0;
   right: 15px;
   color: #ffffff;
-  background-color: #2f5bea;
+  background-color: #5A2573;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -3615,7 +3615,7 @@ Go Top CSS
   -webkit-transition: .9s;
   transition: .9s;
   border-radius: 50%;
-  border: 1px solid #2f5bea;
+  border: 1px solid #5A2573;
 }
 
 .go-top.active {

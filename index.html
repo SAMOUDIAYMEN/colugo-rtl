@@ -1,1785 +1,898 @@
 <!doctype html>
 <html lang="zxx">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap Min CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- Animate Min CSS -->
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <!-- Owl Carousel Min CSS -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-        <!-- Odometer CSS -->
-        <link rel="stylesheet" href="assets/css/odometer.css">
-        <!-- Popup CSS -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-        <!-- Slick CSS -->
-        <link rel="stylesheet" href="assets/css/slick.min.css">
-        <!-- Style CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!-- Responsive CSS -->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <!-- RTL CSS -->
-        <link rel="stylesheet" href="assets/css/rtl.css">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Colugo - App Landing Page HTML Template</title>
+    <!-- Bootstrap Min CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Animate Min CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Owl Carousel Min CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Odometer CSS -->
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <!-- Popup CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- RTL CSS -->
+    <link rel="stylesheet" href="assets/css/rtl.css">
 
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    </head>
+    <title>RAIID express</title>
 
-    <body data-spy="scroll" data-offset="120">
+    <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
+</head>
 
-        <!-- Start Preloader Area -->
+<body data-spy="scroll" data-offset="120">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary d-none" id="btn-show-popup" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body"><h5>سوف نتصل بك قريبا</h5></div>
+            <div class="modal-footer">
+                <div class="col-lg-12 col-md-12">
+                    <div class="send-btn">
+                        <button type="button" data-dismiss="modal" class="default-btn">إغلاق<span></span></button>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Start Preloader Area -->
+    <div class="preloader">
         <div class="preloader">
-            <div class="preloader">
-                <span></span>
-                <span></span>
-            </div>
+            <span></span>
+            <span></span>
         </div>
-        <!-- End Preloader Area -->
+    </div>
+    <!-- End Preloader Area -->
 
-        <!-- Start Navbar Area -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <div class="logo">
-                    <a href="index.html">
-                        <h3>Colugo</h3>
+    <!-- Start Navbar Area -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/favicon.png" alt="RAIID express" width="70px">
+                </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">
+                            الرئيسية
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            عن رائد
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">
+                            ميزات
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#screenshots" class="nav-link">
+                            لقطات
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#faq" class="nav-link">
+                            الأسئلة الشائعة
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            اتصل
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="banner-holder">
+                    <a href="https://play.google.com/store/apps/details?id=ml.raiid.Raiidexpress">
+                        <img src="assets/img/store/1.png" alt="image">
                     </a>
-                </div>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link">
-                                Home
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">
-                                About
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#features" class="nav-link">
-                                Features
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#screenshots" class="nav-link">
-                                Screenshots
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#faq" class="nav-link">
-                                FAQ
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="blog.html" class="nav-link">
-                                Blog
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="others-option">
-                        <div class="d-flex align-items-center">
-                            <div class="option-item">
-                                <a href="#" class="default-btn">
-                                    Try It Free
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <!-- End Navbar Area -->
-
-        <!-- Start Main Banner Area -->
-        <div id="home"  class="main-banner">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="banner-content">
-                                    <h1>Best Mobile App Template For Your Business</h1>
-                                    <p>App ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        
-                                    <div class="banner-holder">
-                                        <a href="#">
-                                            <img src="assets/img/store/1.png" alt="image">
-                                        </a>
-                                        <a href="#">
-                                            <img src="assets/img/store/2.png" alt="image">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6">
-                                <div class="banner-image">
-                                    <img src="assets/img/mobile.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
+                    <img src="assets/img/store/2.png" alt="image">
                 </div>
             </div>
         </div>
-        <!-- End Main Banner Area -->
+    </nav>
+    <!-- End Navbar Area -->
 
-        <!-- Start Fun Facts Area -->
-        <section class="fun-facts-area pt-100 pb-70">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-fact">
-                            <div class="icon">
-                                <i class="fa fa-users"></i>
+    <!-- Start Main Banner Area -->
+    <div id="home" class="main-banner">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="banner-content">
+                                <h1>إكتشفوا تطبيقنا الأن بخاصيات جديدة  و مطاعم متنوعة</h1>
+                                <p>شركة رائد هي شركة مغربية مئة بالمئة مكونة من فريق شاب سيعمل جاهدا لإرضائكم عن طريق توصيل أسرع ، مطاعم أكتر ، تمن أقل و في مناطق أكبر</p>
+
+                                <div class="banner-holder">
+                                    <a href="https://play.google.com/store/apps/details?id=ml.raiid.Raiidexpress">
+                                        <img src="assets/img/store/1.png" alt="image">
+                                    </a>
+                                    <img src="assets/img/store/2.png" alt="image">
+                                </div>
                             </div>
-                            <h3>
-                                <span class="odometer" data-count="1020">00</span>
-                            </h3>
-                            <p>Usersr</p>
                         </div>
-                    </div>
 
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-fact">
-                            <div class="icon">
-                                <i class="fa fa-heart"></i>
+                        <div class="col-lg-6">
+                            <div class="banner-image">
+                                <img src="assets/img/mobile.png" alt="image">
                             </div>
-                            <h3>
-                                <span class="odometer" data-count="5679">00</span>
-                            </h3>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-fact">
-                            <div class="icon">
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <h3>
-                                <span class="odometer" data-count="2660">00</span>
-                            </h3>
-                            <p>Reviews</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-fun-fact">
-                            <div class="icon">
-                                <i class="fa fa-download"></i>
-                            </div>
-                            <h3>
-                                <span class="odometer" data-count="6789">00</span>
-                            </h3>
-                            <p>App Downloads</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Fun Facts Area -->
+        </div>
 
-        <!-- Start About Area -->
-        <section id="about" class="about-area pb-100">
-            <div class="container">
-                <div class="section-title">
-                    <h2>About Our App</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </div>
+    <!-- End Main Banner Area -->
+
+    <!-- Start map Area -->
+    <section class="ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="overview-content">
+                        <h3>هل رائد متوفر في منطقتي؟</h3>
+                        <div class="bar"></div>
+                    </div>
                 </div>
 
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <h3>Our process is simple, Our App is powerful</h3>
-                            <div class="bar"></div>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                <div class="col-lg-6">
+                    <div class="overview-image">
+                        <img src="assets/img/map.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End map Area -->
 
-                            <div class="about-btn">
-                                <a href="#" class="default-btn">
-                                    Download Now
-                                    <span></span>
+
+    <!-- Start About Area -->
+    <section id="about" class="about-area pb-100">
+        <div class="container">
+            <div class="section-title">
+                <br>
+                <h2>حول تطبيقنا</h2>
+                <div class="bar"></div>
+                <p>اطلب الطعام عبر الإنترنت باستخدام هاتفك الذكي أو جهازك اللوحي باستخدام تطبيق رائد. سهل للغاية!</p>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3>كيف يعمل رائد؟</h3>
+                        <div class="bar"></div>
+                        <p>ليس هناك ما هو أسهل من تقديم طلبك الأول مع رائد . ما عليك سوى اتباع هذه الخطوات:</p>
+                        <p>(1) تحميل تطبيق RAIID express من متجر apple appstore أو play store</p>
+                        <p>(2) إذا كنت ترغب في الدخول لتطبيق وتصفح المتاجر والوجبات انقر على زر التصفح كزائر.
+                            إذا كان لديك حساب بالفعل عند رائد فيمكنك ادخال المعلومات الخاصة بك.
+                            إذا لم يكن لديك حساب بالفعل فتستطيع انشاء واحد بكل سهولة وبسرعة .</p>
+                        <p>(3) شراء شيء في مطعم أو محل. اختر أحد شركائنا في الفئة التي تختارها.</p>
+                        <p>(4) اتبع الخطوات اللازمة . عند الانتهاء ، سيقبل الرائد طلبك ويسلمه إليك في غضون دقائق.</p>
+
+                        <div class="about-btn">
+                            <div class="banner-holder">
+                                <a href="https://play.google.com/store/apps/details?id=ml.raiid.Raiidexpress">
+                                    <img src="assets/img/store/1.png" width="150px" alt="image">
                                 </a>
+                                <img src="assets/img/store/2.png" width="150px" alt="image">
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-6">
-                        <div class="about-image">
-                            <img src="assets/img/about.png" alt="image">
-                        </div>
+                <div class="col-lg-6" style="text-align: center;">
+                    <div class="about-image">
+                        <img src="assets/img/about.png" width="60%" alt="image">
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
-                </div>
-            </div>
-        </section>
-        <!-- End About Area -->
-
-        <!-- Start Features Area -->
-        <section id="features" class="features-area pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Awsome Features</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-features">
-                            <div class="icon">
-                                <i class="fa fa-sun"></i>
-                            </div>
-                            <h3>High Resolution</h3>
-                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-features">
-                            <div class="icon">
-                                <i class="fa fa-lightbulb"></i>
-                            </div>
-                            <h3>Unique Design</h3>
-                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-features">
-                            <div class="icon">
-                                <i class="fa fa-desktop"></i>
-                            </div>
-                            <h3>Full Responsive</h3>
-                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-features">
-                            <div class="icon">
-                                <i class="fa fa-code"></i>
-                            </div>
-                            <h3>Clean Codes</h3>
-                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-features">
-                            <div class="icon">
-                                <i class="fa fa-eye"></i>
-                            </div>
-                            <h3>Retina Ready</h3>
-                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-features">
-                            <div class="icon">
-                                <i class="fa fa-camera"></i>
-                            </div>
-                            <h3>Unlimited Features</h3>
-                            <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
             </div>
 
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
-                </div>
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
             </div>
-        </section>
-        <!-- End Features Area -->
 
-        <!-- End Screenshot Area -->
-        <section id="screenshots" class="screenshot-area ptb-100">
-            <div class="container-fluid">
-                <div class="section-title">
-                    <h2>App Screenshot</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+
+    <!-- Start Features Area -->
+    <section id="features" class="features-area pb-70">
+        <div class="container">
+            <div class="section-title">
+                <br>
+                <h2>لماذا رائد؟</h2>
+                <div class="bar"></div>
+                <p>اطلب أي شيء تريده مع رائد وسيتم توصيله في دقائق.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <div class="icon">
+                            <i class="fa fa-sun"></i>
+                        </div>
+                        <h3>موزعو رائد</h3>
+                        <p>نحاول جاهدا أن نقدم تكوين معتمد لجميع الموزعين قبل البدأ معنا لتكون حلقة الوصل بيننا و بين العملاء في أحسن صورة و نسعى جاهدا أن نخلق فرص شغل جديدة داخل وسط الشباب يوما بعد يوم</p>
+                    </div>
                 </div>
 
-                <div class="screenshot-slider owl-carousel owl-theme">
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/1.png" alt="image">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <div class="icon">
+                            <i class="fa fa-lightbulb"></i>
                         </div>
+                        <h3>مطاعم رائد</h3>
+                        <p>جميع المطاعم المتواجدة في تطبيقنا تتوفر على جميع الشروط اللازمة للنظافة و الجودة ل ضمان سلامة عملائنا و هدفنا هو إضافة مطعم من مطاعمكم المفضلة كل أسبوع</p>
                     </div>
+                </div>
 
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/2.png" alt="image">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <div class="icon">
+                            <i class="fa fa-desktop"></i>
                         </div>
+                        <h3>سهل الاستخدام والطلب</h3>
+                        <p>RAIID express هي الطريقة الأسرع والأسهل والأكثر ملاءمة لطلب الطعام عبر الإنترنت في المغرب</p>
                     </div>
+                </div>
 
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/3.png" alt="image">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <div class="icon">
+                            <i class="fa fa-code"></i>
                         </div>
+                        <h3>توصيل سريع</h3>
+                        <p>قوة رائدة في السرعة بحيث نوفر فريق دعم متميز للتحقق من ان طلبك سيصلك في أقرب وقت ممكن.</p>
                     </div>
+                </div>
 
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/4.png" alt="image">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <div class="icon">
+                            <i class="fa fa-eye"></i>
                         </div>
+                        <h3>تتبع التسليم في الوقت الحقيقي</h3>
+                        <p>مع تطبيق RAIID express يمكنك تتبع طلبك بمراحله الكاملة و حتى بموقعه.</p>
                     </div>
+                </div>
 
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/5.png" alt="image">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-features">
+                        <div class="icon">
+                            <i class="fa fa-camera"></i>
                         </div>
-                    </div>
-
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/6.png" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/1.png" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/2.png" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/3.png" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/4.png" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/5.png" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="screenshot-item">
-                        <div class="image">
-                            <img src="assets/img/screenshot/6.png" alt="image">
-                        </div>
+                        <h3>اكتشف المتاجر المحلية</h3>
+                        <p>مع تطبيق RAIID express يمكنك تعرف على الذ و اشهى الاكلات التي توفرها المتاجر المحلية.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Screenshot Area -->
+        </div>
 
-        <!-- Start Testimonial Area -->
-        <section class="testimonial-area ptb-100">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Testimonial</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </section>
+    <!-- End Features Area -->
+
+    <!-- End Screenshot Area -->
+    <section id="screenshots" class="screenshot-area ptb-100">
+        <div class="container-fluid">
+            <div class="section-title">
+                <h2>لقطات شاشة التطبيق</h2>
+                <div class="bar"></div>
+            </div>
+
+            <div class="screenshot-slider owl-carousel owl-theme">
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/1.jpg" alt="image">
+                    </div>
                 </div>
 
-                <div class="testimonial-slides">
-					<div class="client-feedback">
-						<div>
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-                                    <div class="icon">
-                                        <i class="fa fa-quote-left"></i>
-                                    </div>
-									<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Quis ipsum suspendisse ultrices gravida.”</p>
-								</div>
-							</div>
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/2.jpg" alt="image">
+                    </div>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/3.jpg" alt="image">
+                    </div>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/4.jpg" alt="image">
+                    </div>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/5.jpg" alt="image">
+                    </div>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/6.jpg" alt="image">
+                    </div>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/7.jpg" alt="image">
+                    </div>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/8.jpg" alt="image">
+                    </div>
+                </div>
+
+                <div class="screenshot-item">
+                    <div class="image">
+                        <img src="assets/img/screenshot/9.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Screenshot Area -->
+
+    <!-- Start Overview Area -->
+    <section class="overview-area ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="overview-content">
+                        <h3>لجميع العروض والهدايا التي يقدمها رائد ، تأكد من متابعتنا على صفحاتنا على Instagram و Facebook.</h3>
+                        <div class="bar"></div>
+                        <div class="overview-btn">
+                            <div class="single-footer-widget">
+                                <ul class="social-list">
+                                    <li>
+                                        <a href="https://www.instagram.com/raiid_express/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/raiid.express" target="_blank">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        
-                        <button class="prev-arrow slick-arrow">
-                            <i class="fa fa-chevron-left"></i>
-                        </button>
-                        
-                        <button class="next-arrow slick-arrow">
-                            <i class="fa fa-chevron-right"></i>
-                        </button>
                     </div>
-                    
-                    <div class="client-thumbnails">
-						<div>
-							<div class="item">
-                                <div class="img-fill">
-                                    <img src="assets/img/client/1.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>Jonus Nathan</h3>
-                                    <span>CEO at Envato</span>
-                                </div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill">
-                                    <img src="assets/img/client/2.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>Sadio Finn</h3>
-                                    <span>CEO at FlatIcon</span>
-                                </div>
-                            </div>
-                            
-                            <div class="item">
-								<div class="img-fill">
-                                    <img src="assets/img/client/3.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>Tom Olivar</h3>
-                                    <span>CEO at ThemeForest</span>
-                                </div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill">
-                                    <img src="assets/img/client/4.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>James Finn</h3>
-                                    <span>CEO at GitLab</span>
-                                </div>
-                            </div>
-							
-							<div class="item">
-								<div class="img-fill">
-                                    <img src="assets/img/client/5.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>John Lucy</h3>
-                                    <span>CEO at Linkedin</span>
-                                </div>
-                            </div>
-                            
-                            <div class="item">
-								<div class="img-fill">
-                                    <img src="assets/img/client/1.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>Sarah Taylor</h3>
-                                    <span>CEO at Twitter</span>
-                                </div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill">
-                                    <img src="assets/img/client/2.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>James Anderson</h3>
-                                    <span>CEO at Facebook</span>
-                                </div>
-                            </div>
-                            
-                            <div class="item">
-								<div class="img-fill">
-                                    <img src="assets/img/client/3.jpg" alt="client">
-                                </div>
-                                
-                                <div class="title">
-                                    <h3>Steven Smith</h3>
-                                    <span>CEO at EnvyTheme</span>
-                                </div>
-							</div>
-						</div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="overview-image">
+                        <img src="assets/img/overview.png" alt="image">
                     </div>
-				</div>
-            </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
                 </div>
             </div>
-        </section>
-        <!-- End Testimonial Area -->
+        </div>
+    </section>
+    <!-- End Overview Area -->
 
-        <!-- Start Overview Area -->
-        <section class="overview-area ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="overview-content">
-                            <h3>Overall 400k+ Our Users Please Get Download Now</h3>
-                            <div class="bar"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo.</p>
-                            <div class="overview-btn">
-                                <a href="#" class="default-btn">
-                                    Get It Now
-                                    <span></span>
+    <!-- Start Faq Area -->
+    <section id="faq" class="faq-area ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>الأسئلة الشائعة</h2>
+                <div class="bar"></div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="faq-accordion-content">
+                        <ul class="accordion">
+                            <li class="accordion-item">
+                                <a class="accordion-title active" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    من هم رائد؟
                                 </a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-6">
-                        <div class="overview-image">
-                            <img src="assets/img/overview.png" alt="image">
-                        </div>
+                                <p class="accordion-content show">شركة رائد هي شركة مغربية مئة بالمئة مكونة من فريق شاب سيعمل جاهدا لإرضائكم عن طريق توصيل أسرع ، مطاعم أكتر ، تمن أقل و في مناطق أكبر</p>
+                            </li>
+
+                            <li class="accordion-item">
+                                <a class="accordion-title" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    هل رائد متوفر في منطقتي؟
+                                </a>
+
+                                <p class="accordion-content">رائد متوفر حاليا في هذه <a href="#"><b style="color: #B7C30B;">المناطق</b></a></p>
+                            </li>
+
+                            <li class="accordion-item">
+                                <a class="accordion-title" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    ما هي ساعات عمل رائد؟
+                                </a>
+
+                                <p class="accordion-content">سيكون لديك خدمة 24/7. ومع ذلك ، فإن جميع المتاجر لديها جداولها ويمكن إغلاقها حتى إذا كان Glovo متاحًا. لإرشادك ، تظهر صورة المحلات التجارية المفتوحة بالألوان بينما يتم عرض صورة المحلات المغلقة باللون الرمادي.</p>
+                            </li>
+
+                            <li class="accordion-item">
+                                <a class="accordion-title" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    كيف اجد ما اريد؟
+                                </a>
+
+                                <p class="accordion-content">يوجد في الجزء العلوي من الشاشة محرك بحث يسمح لك بالعثور على أي منتج.</p>
+                            </li>
+
+                            <li class="accordion-item">
+                                <a class="accordion-title" href="javascript:void(0)">
+                                    <i class="fa fa-chevron-down"></i>
+                                    كيفية استخدام رمز القسيمة؟
+                                </a>
+
+                                <p class="accordion-content">عندما تصل إلى الخطوة الأخيرة من عملية الشراء ، يوجد حقل يسمح لك بإدخال رمز القسيمة (Code promo)</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="faq-image">
+                        <img src="assets/img/faq-mobile.png" alt="image">
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Overview Area -->
+        </div>
 
-        <!-- Start Pricing Area -->
-        <section class="pricing-area pt-100 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Pricing Plan</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </section>
+    <!-- End Faq Area -->
+
+    <!-- Start App Download Area -->
+    <section class="app-download ptb-100">
+        <div class="container">
+            <div class="app-download-content">
+                <h3>قم بتنزيل RAIID Express الآن.</h3>
+                <div class="bar"></div>
+                <p>اعثر على الأسعار المناسبة بالقرب منك. استفد من خدمة التوصيل للمنازل على مدار الساعة طوال أيام الأسبوع لوجباتك. يوفر لك رائد الوقت والمال..</p>
+                <div class="app-holder">
+                    <a href="https://play.google.com/store/apps/details?id=ml.raiid.Raiidexpress">
+                        <img src="assets/img/store/1.png" alt="image">
+                    </a>
+                    <img src="assets/img/store/2.png" alt="image">
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- End App Download Area -->
 
-                <div class="tab pricing-list-tab">
-                    <ul class="tabs">
-                        <li>
-                            <a href="#">
-                                Monthly
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Yearly
-                            </a>
-                        </li>
-                    </ul>
+    <!-- Start Contact Area -->
+    <section id="contact" class="contact-area ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>اتصل بنا</h2>
+                <div class="bar"></div>
+                <p>كيف يمكن لنا أن نساعدكم ؟</p>
+            </div>
 
-                    <div class="tab_content">
-                        <div class="tabs_item">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form id="contactForm" name="google-sheet" autocomplete="off">
                             <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-pricing-table">
-                                        <div class="pricing-header">
-                                            <h3>Standard</h3>
-                                        </div>
-
-                                        <div class="price">
-                                            <sup>$</sup>33 <sub>/ monthly</sub>
-                                        </div>
-
-                                        <ul class="pricing-features">
-                                            <li>
-                                                <i class="fas fa-check"></i>
-                                                Extra features
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Lifetime free support
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Upgrate options
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Full access
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                App Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Developement
-                                            </li>
-                                        </ul>
-
-                                        <div class="pricing-btn">
-                                            <a href="#" class="default-btn">
-                                                Purchase
-                                                <span></span>
-                                            </a>
-                                        </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control" required
+                                            data-error="يرجى إدخال اسمكe" placeholder="اسمك">
+                                        <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-pricing-table">
-                                        <div class="pricing-header">
-                                            <h3>Personal</h3>
-                                        </div>
-
-                                        <div class="price">
-                                            <sup>$</sup>69 <sub>/ monthly</sub>
-                                        </div>
-
-                                        <ul class="pricing-features">
-                                            <li>
-                                                <i class="fas fa-check"></i>
-                                                Extra features
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Lifetime free support
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Upgrate options
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Full access
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Web Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                App Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Developement
-                                            </li>
-                                        </ul>
-
-                                        <div class="pricing-btn">
-                                            <a href="#" class="default-btn">
-                                                Purchase
-                                                <span></span>
-                                            </a>
-                                        </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="form-control" required
+                                            data-error="رجاءا أدخل بريدك الإلكتروني" placeholder="بريدك الالكتروني">
+                                        <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-pricing-table">
-                                        <div class="pricing-header">
-                                            <h3>Business</h3>
-                                        </div>
-
-                                        <div class="price">
-                                            <sup>$</sup>99 <sub>/ monthly</sub>
-                                        </div>
-
-                                        <ul class="pricing-features">
-                                            <li>
-                                                <i class="fas fa-check"></i>
-                                                Extra features
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Lifetime free support
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Upgrate options
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Full access
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Web Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                App Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Developement
-                                            </li>
-                                        </ul>
-
-                                        <div class="pricing-btn">
-                                            <a href="#" class="default-btn">
-                                                Purchase
-                                                <span></span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tabs_item">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-pricing-table">
-                                        <div class="pricing-header">
-                                            <h3>Standard</h3>
-                                        </div>
-
-                                        <div class="price">
-                                            <sup>$</sup>33 <sub>/ yearly</sub>
-                                        </div>
-
-                                        <ul class="pricing-features">
-                                            <li>
-                                                <i class="fas fa-check"></i>
-                                                Extra features
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Lifetime free support
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Upgrate options
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Full access
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                App Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Developement
-                                            </li>
-                                        </ul>
-
-                                        <div class="pricing-btn">
-                                            <a href="#" class="default-btn">
-                                                Purchase
-                                                <span></span>
-                                            </a>
-                                        </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="phone_number" id="phone_number" required
+                                            data-error="الرجاء إدخال رقمك" class="form-control"
+                                            placeholder="رقم هاتفك">
+                                        <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-pricing-table">
-                                        <div class="pricing-header">
-                                            <h3>Personal</h3>
-                                        </div>
-
-                                        <div class="price">
-                                            <sup>$</sup>69 <sub>/ yearly</sub>
-                                        </div>
-
-                                        <ul class="pricing-features">
-                                            <li>
-                                                <i class="fas fa-check"></i>
-                                                Extra features
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Lifetime free support
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Upgrate options
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Full access
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Web Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                App Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Developement
-                                            </li>
-                                        </ul>
-
-                                        <div class="pricing-btn">
-                                            <a href="#" class="default-btn">
-                                                Purchase
-                                                <span></span>
-                                            </a>
-                                        </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control"
+                                            required data-error="الرجاء إدخال موضوعك" placeholder="موضوعك">
+                                        <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="single-pricing-table">
-                                        <div class="pricing-header">
-                                            <h3>Business</h3>
-                                        </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6"
+                                            required data-error="اكتب رسالتك"
+                                            placeholder="رسالتك"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
 
-                                        <div class="price">
-                                            <sup>$</sup>99 <sub>/ yearly</sub>
-                                        </div>
-
-                                        <ul class="pricing-features">
-                                            <li>
-                                                <i class="fas fa-check"></i>
-                                                Extra features
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Lifetime free support
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Upgrate options
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Full access
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                Web Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-check"></i>
-                                                App Design
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-times"></i>
-                                                Web Developement
-                                            </li>
-                                        </ul>
-
-                                        <div class="pricing-btn">
-                                            <a href="#" class="default-btn">
-                                                Purchase
-                                                <span></span>
-                                            </a>
-                                        </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="send-btn">
+                                        <button type="submit" id="Continuer" class="default-btn">أرسل<span></span></button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
-                </div>
-            </div>
-        </section>
-        <!-- End Pricing Area -->
-
-        <!-- Start Faq Area -->
-        <section id="faq" class="faq-area ptb-100">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Frequently Asked Questions</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                </div>
-
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="faq-accordion-content">
-                            <ul class="accordion">
-                                <li class="accordion-item">
-                                    <a class="accordion-title active" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        Which material types can you work with?
-                                    </a>
-        
-                                    <p class="accordion-content show">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet.</p>
-                                </li>
-                                
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        What access do I have on the free plan?
-                                    </a>
-        
-                                    <p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
-                                </li>
-                                
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        Can I get support from the Author?
-                                    </a>
-        
-                                    <p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
-                                </li>
-        
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        Which material types can you work with?
-                                    </a>
-        
-                                    <p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
-                                </li>
-                                
-                                <li class="accordion-item">
-                                    <a class="accordion-title" href="javascript:void(0)">
-                                        <i class="fa fa-chevron-down"></i>
-                                        Why Choose Our Services In Your Business?
-                                    </a>
-        
-                                    <p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="faq-image">
-                            <img src="assets/img/faq-mobile.png" alt="image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
-                </div>
-            </div>
-        </section>
-        <!-- End Faq Area -->
-
-        <!-- Start Team Area -->
-        <section class="team-area pt-100 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Our Expert Team</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-team">
-                            <div class="image">
-                                <img src="assets/img/team/image1.jpg" alt="image">
-                            
-                                <ul class="social">
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-    
-                                <div class="content">
-                                    <h3>Justin Roberto</h3>
-                                    <p>Founder & CEO</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-team">
-                            <div class="image">
-                                <img src="assets/img/team/image2.jpg" alt="image">
-                            
-                                <ul class="social">
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-    
-                                <div class="content">
-                                    <h3>Louis Agassiz</h3>
-                                    <p>Co-Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-team">
-                            <div class="image">
-                                <img src="assets/img/team/image3.jpg" alt="image">
-                            
-                                <ul class="social">
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-    
-                                <div class="content">
-                                    <h3>Carl Anderson</h3>
-                                    <p>Web Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
-                </div>
-            </div>
-        </section>
-        <!-- End Team Area -->
-
-        <!-- Start App Download Area -->
-        <section class="app-download ptb-100">
-            <div class="container">
-                <div class="app-download-content">
-                    <h3>Download Our Apps Today</h3>
-                    <div class="bar"></div>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account the system and expound the actual teachings of the great explore.</p>
-                    <div class="app-holder">
-                        <a href="#">
-                            <img src="assets/img/store/1.png" alt="image">
-                        </a>
-                        <a href="#">
-                            <img src="assets/img/store/2.png" alt="image">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End App Download Area -->
-
-        <!-- Start Blog Area -->
-        <section class="blog-area pt-100 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Latest Blog Post</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog">
-                            <div class="image">
-                                <a href="single-blog.html">
-                                    <img src="assets/img/blog/image1.jpg" alt="image">
-                                </a>
-                                <div class="btn">
-                                    <a href="#">App Development</a>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <ul class="post-meta">
-                                    <li>
-                                        <i class="fa fa-calendar"></i>
-                                        12 March 2020
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-comments"></i>
-                                        <a href="#">3 Comment</a>
-                                    </li>
-                                </ul>
-
-                                <h3>
-                                    <a href="single-blog.html">
-                                        The Most Popular New Business Apps
-                                    </a>
-                                </h3>
-                                <p>Water plan dolor sit amet consturisi velised quiLorem</p>
-                                <a href="single-blog.html" class="read-more">
-                                    Read More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog">
-                            <div class="image">
-                                <a href="single-blog.html">
-                                    <img src="assets/img/blog/image2.jpg" alt="image">
-                                </a>
-                                <div class="btn">
-                                    <a href="#">Web Development</a>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <ul class="post-meta">
-                                    <li>
-                                        <i class="fa fa-calendar"></i>
-                                        18 March 2020
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-comments"></i>
-                                        <a href="#">6 Comment</a>
-                                    </li>
-                                </ul>
-
-                                <h3>
-                                    <a href="single-blog.html">
-                                        The Most Popular New Apps in 2020
-                                    </a>
-                                </h3>
-                                <p>Water plan dolor sit amet consturisi velised quiLorem</p>
-                                <a href="single-blog.html" class="read-more">
-                                    Read More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-blog">
-                            <div class="image">
-                                <a href="single-blog.html">
-                                    <img src="assets/img/blog/image3.jpg" alt="image">
-                                </a>
-                                <div class="btn">
-                                    <a href="#">Design Development</a>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <ul class="post-meta">
-                                    <li>
-                                        <i class="fa fa-calendar"></i>
-                                        28 March 2020
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-comments"></i>
-                                        <a href="#">0 Comment</a>
-                                    </li>
-                                </ul>
-
-                                <h3>
-                                    <a href="single-blog.html">
-                                        The Best Marketing Management Tools
-                                    </a>
-                                </h3>
-                                <p>Water plan dolor sit amet consturisi velised quiLorem</p>
-                                <a href="single-blog.html" class="read-more">
-                                    Read More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Blog Area -->
-
-        <!-- Start Contact Area -->
-        <section id="contact" class="contact-area ptb-100">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Contact Us</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidiunt  labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                </div>
-
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="contact-form">
-                            <form id="contactForm">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Your Name">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="Your Email">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="Your Phone">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" placeholder="Your Message"></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-    
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="send-btn">
-                                            <button type="submit" class="default-btn">
-                                                Send Message
-                                                <span></span>
-                                            </button>
-                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="contact-info">
-                            <div class="contact-info-content">
-                                <h3>Contact with us by Your Phone Number or Email Address</h3>
-                                <h2>
-                                    <a href="tel:+1-485-456-0102">+1-485-456-0102</a>
-                                    <span>Or</span>
-                                    <a href="mailto:hello@spacle.com">hello@colugo.com</a>
-                                </h2>
-        
-                                <ul class="social">
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="default-shape">
-                <div class="shape-1">
-                    <img src="assets/img/shape/1.png" alt="image">
-                </div>
-
-                <div class="shape-2 rotateme">
-                    <img src="assets/img/shape/2.png" alt="image">
-                </div>
-
-                <div class="shape-3">
-                    <img src="assets/img/shape/3.svg" alt="image">
-                </div>
-
-                <div class="shape-4">
-                    <img src="assets/img/shape/4.svg" alt="image">
-                </div>
-
-                <div class="shape-5">
-                    <img src="assets/img/shape/5.png" alt="image">
-                </div>
-            </div>
-        </section>
-        <!-- End Contact Area -->
-
-        <!-- Start Subscribe Area -->
-        <div class="subscribe-area ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="subscribe-content">
-                            <h2>Subscribe for our Newsletter</h2>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <form class="newsletter-form">
-                            <input type="email" class="input-newsletter" placeholder="Enter your Email" name="EMAIL" required autocomplete="off">
-                            <button type="submit">
-                                Subscribe Now
-                            </button>
-                            
-                            <div id="validator-newsletter" class="form-result"></div>
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- End Subscribe Area -->
 
-        <!-- Start Footer Area -->
-        <section class="footer-area pt-100 pb-70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <a href="#" class="logo">
-                                <h2>Colugo</h2>
-                            </a>
-                            <p>Plan ahead by day, week, or month, and see project status at a glance. Search and filter to focus in on anything form a single project individual.</p>
-                            <ul class="social-list">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="contact-info-content">
+                            <h3>تواصل معنا عبر رقم هاتفك أو عنوان بريدك الإلكتروني</h3>
+                            <h2>
+                                <a href="tel:+1-485-456-0102">+212645154803</a>
+                                <span>Or</span>
+                                <a href="mailto:hello@spacle.com">Contact@raiid.ma</a>
+                            </h2>
+
+                            <ul class="social">
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.facebook.com/raiid.express" target="_blank">
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
-                                <li>
+                                <!--<li>
                                     <a href="#" target="_blank">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                </li>
+                                </li>-->
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.linkedin.com/company/raiid-express/" target="_blank">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.instagram.com/raiid_express/" target="_blank">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget pl-5">
-                            <h3>Company</h3>
-                            <ul class="list">
-                                <li>
-                                    <a href="#">
-                                        About
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Carrers
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Awards
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        User Program
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Locations
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Login
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h3>Products</h3>
-                            <ul class="list">
-                                <li>
-                                    <a href="#">
-                                        Integrations
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        API
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Documentation
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Sign Up
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Release Notes
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        User Program
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h3>Download</h3>
-                            
-                            <ul class="footer-holder">
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/store/1.png" alt="image">
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <img src="assets/img/store/2.png" alt="image">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </section>
-        <!-- End Footer Area -->
+        </div>
 
-        <!-- Start Copy Right Area -->
-        <div class="copy-right">
-            <div class="container">
-                <div class="copy-right-content">
-                    <p>
-                        <i class="far fa-copyright"></i> 
-                        2020 Colugo. All Rights Reserved by
-                        <a href="https://hibootstrap.com" target="_blank">
-                            Hibootsrap
+        <div class="default-shape">
+            <div class="shape-1">
+                <img src="assets/img/shape/1.png" alt="image">
+            </div>
+
+            <div class="shape-2 rotateme">
+                <img src="assets/img/shape/2.png" alt="image">
+            </div>
+
+            <div class="shape-3">
+                <img src="assets/img/shape/3.svg" alt="image">
+            </div>
+
+            <div class="shape-4">
+                <img src="assets/img/shape/4.svg" alt="image">
+            </div>
+
+            <div class="shape-5">
+                <img src="assets/img/shape/5.png" alt="image">
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Area -->
+
+    <!-- Start Footer Area -->
+    <section class="footer-area pt-100 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <a href="#" class="logo">
+                            <h2>RAIID express</h2>
                         </a>
-                    </p>
+                        <p>تأكد من متابعتنا على صفحتنا على وسائل التواصل الاجتماعي</p>
+                        <ul class="social-list">
+                            <li>
+                                <a href="https://www.facebook.com/raiid.express" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <!--<li>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>-->
+                            <li>
+                                <a href="https://www.linkedin.com/company/raiid-express/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/raiid_express/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--<div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget pl-5">
+                        <h3>Company</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Carrers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Awards
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    User Program
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Locations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Login
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Products</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="#">
+                                    Integrations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    API
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Documentation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Sign Up
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Release Notes
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    User Program
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+
+                <div class="col-lg-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Download</h3>
+
+                        <ul class="footer-holder">
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=ml.raiid.Raiidexpress">
+                                    <img src="assets/img/store/1.png" alt="image">
+                                </a>
+                            </li>
+
+                            <li>
+                                <img src="assets/img/store/2.png" alt="image">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- End Copy Right Area -->
+    </section>
+    <!-- End Footer Area -->
 
-        <!-- Start Go Top Section -->
-        <div class="go-top">
-            <i class="fa fa-chevron-up"></i>
-            <i class="fa fa-chevron-up"></i>
+    <!-- Start Copy Right Area -->
+    <div class="copy-right">
+        <div class="container">
+            <div class="copy-right-content">
+                <p>
+                    <i class="far fa-copyright"></i>
+                    2022 RAIID express
+                </p>
+            </div>
         </div>
-        <!-- End Go Top Section -->
+    </div>
+    <!-- End Copy Right Area -->
 
-        <!-- jQuery Min JS -->
-        <script src="assets/js/jquery-3.5.1.min.js"></script>
-        <!-- Popper Min JS -->
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap Min JS -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Owl Carousel Min JS -->
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <!-- Appear JS -->
-        <script src="assets/js/jquery.appear.js"></script>
-        <!-- Odometer JS -->
-        <script src="assets/js/odometer.min.js"></script>
-        <!-- Slick JS -->
-        <script src="assets/js/slick.min.js"></script>
-        <!-- Particles JS -->
-        <script src="assets/js/particles.min.js"></script>
-        <!-- Ripples JS -->
-        <script src="assets/js/jquery.ripples-min.js"></script>
-        <!-- Popup JS -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- WOW Min JS -->
-        <script src="assets/js/wow.min.js"></script>
-        <!-- AjaxChimp Min JS -->
-        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-        <!-- Form Validator Min JS -->
-        <script src="assets/js/form-validator.min.js"></script>
-        <!-- Contact Form Min JS -->
-        <script src="assets/js/contact-form-script.js"></script>
-        <!-- Main JS -->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!-- Start Go Top Section -->
+    <div class="go-top">
+        <i class="fa fa-chevron-up"></i>
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <!-- End Go Top Section -->
+
+    <!-- jQuery Min JS -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- Popper Min JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap Min JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel Min JS -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Appear JS -->
+    <script src="assets/js/jquery.appear.js"></script>
+    <!-- Odometer JS -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- Slick JS -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Particles JS -->
+    <script src="assets/js/particles.min.js"></script>
+    <!-- Ripples JS -->
+    <script src="assets/js/jquery.ripples-min.js"></script>
+    <!-- Popup JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- WOW Min JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- AjaxChimp Min JS -->
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Form Validator Min JS -->
+    <script src="assets/js/form-validator.min.js"></script>
+    <!-- Contact Form Min JS -->
+    <script src="assets/js/contact-form-script.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
